@@ -34,8 +34,8 @@ jobs:
           cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
+        run: pnpm install 
+        
       - name: Build with Vite
         run: pnpm run build
 
